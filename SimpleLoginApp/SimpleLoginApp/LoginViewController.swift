@@ -9,7 +9,12 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+ //MARK:- Outlet connections
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
