@@ -104,10 +104,7 @@
 				B2C0A52425945B030060B367 /* Model */,
 				B2C0A4F4259459A10060B367 /* AppDelegate.swift */,
 				B2C0A4F6259459A10060B367 /* SceneDelegate.swift */,
-				B2C0A4F8259459A10060B367 /* LoginViewController.swift */,
-				B2C0A4FA259459A10060B367 /* Main.storyboard */,
-				B2C0A4FD259459A20060B367 /* Assets.xcassets */,
-				B2C0A4FF259459A20060B367 /* LaunchScreen.storyboard */,
+				B2C0A52825951A3D0060B367 /* View */,
 				B2C0A502259459A20060B367 /* Info.plist */,
 			);
 			path = SimpleLoginApp;
@@ -137,6 +134,17 @@
 				B2C0A52525945C8F0060B367 /* LoginCredentials.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B2C0A52825951A3D0060B367 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2C0A4FF259459A20060B367 /* LaunchScreen.storyboard */,
+				B2C0A4FD259459A20060B367 /* Assets.xcassets */,
+				B2C0A4FA259459A10060B367 /* Main.storyboard */,
+				B2C0A4F8259459A10060B367 /* LoginViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

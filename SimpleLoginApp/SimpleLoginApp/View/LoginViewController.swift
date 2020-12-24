@@ -30,7 +30,8 @@ class LoginViewController: UIViewController {
     
     
     func setupTextFieldProperties() {
-        usernameTextField.layer.cornerRadius = 6.0
+        usernameTextField.borderStyle = UITextField.BorderStyle.bezel
+        passwordTextField.borderStyle = UITextField.BorderStyle.bezel
     }
 
 
