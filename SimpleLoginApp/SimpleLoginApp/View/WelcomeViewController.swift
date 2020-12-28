@@ -21,14 +21,6 @@ class WelcomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        api.loginHandler { (success, LoginData) in
-//        self.loginData = LoginData
-//    }
-//        guard let username = loginData?.username else {
-//            return
-//        }
-//
-//        usernameLabel.text = username
         usernameLabel.text = usernameFromLoginVC
     }
         

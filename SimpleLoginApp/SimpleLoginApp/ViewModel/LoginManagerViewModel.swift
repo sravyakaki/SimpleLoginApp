@@ -40,15 +40,6 @@ class LoginManagerViewModel {
     
     func login(completion: @escaping (Error?) -> Void) {
         loginManager.loginWithCredentials(username: username, password: password)
-        
-        /* { (error) in
-            guard let error = error else {
-                completion(nil)
-                return
-            }
-            
-            completion(error)
-        }*/
     }
     
     func credentialsInput() -> CredentialsInputStatus {
