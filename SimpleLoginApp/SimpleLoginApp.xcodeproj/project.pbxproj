@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B28F325F25968DAD00598F71 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F325E25968DAD00598F71 /* WelcomeViewController.swift */; };
+		B28F326025968DAD00598F71 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F325E25968DAD00598F71 /* WelcomeViewController.swift */; };
+		B28F326125968DAD00598F71 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F325E25968DAD00598F71 /* WelcomeViewController.swift */; };
 		B2C0A4F5259459A10060B367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A4F4259459A10060B367 /* AppDelegate.swift */; };
 		B2C0A4F7259459A10060B367 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A4F6259459A10060B367 /* SceneDelegate.swift */; };
 		B2C0A4F9259459A10060B367 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A4F8259459A10060B367 /* LoginViewController.swift */; };
@@ -16,6 +19,29 @@
 		B2C0A50C259459A20060B367 /* SimpleLoginAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A50B259459A20060B367 /* SimpleLoginAppTests.swift */; };
 		B2C0A517259459A20060B367 /* SimpleLoginAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A516259459A20060B367 /* SimpleLoginAppUITests.swift */; };
 		B2C0A52625945C8F0060B367 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A52525945C8F0060B367 /* LoginCredentials.swift */; };
+		B2C0A52B259531FE0060B367 /* LoginManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A52A259531FE0060B367 /* LoginManagerViewModel.swift */; };
+		B2C0A52C259541380060B367 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A52525945C8F0060B367 /* LoginCredentials.swift */; };
+		B2C0A52D259541390060B367 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A52525945C8F0060B367 /* LoginCredentials.swift */; };
+		B2C0A52E2595413D0060B367 /* LoginManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A52A259531FE0060B367 /* LoginManagerViewModel.swift */; };
+		B2C0A52F2595413E0060B367 /* LoginManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A52A259531FE0060B367 /* LoginManagerViewModel.swift */; };
+		B2C0A530259541480060B367 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A4F8259459A10060B367 /* LoginViewController.swift */; };
+		B2C0A531259541480060B367 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A4F8259459A10060B367 /* LoginViewController.swift */; };
+		B2C0A533259543DD0060B367 /* LoginErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A532259543DD0060B367 /* LoginErrorHandler.swift */; };
+		B2C0A534259543EA0060B367 /* LoginErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A532259543DD0060B367 /* LoginErrorHandler.swift */; };
+		B2C0A535259543EB0060B367 /* LoginErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A532259543DD0060B367 /* LoginErrorHandler.swift */; };
+		B2C0A537259556980060B367 /* credentials.json in Resources */ = {isa = PBXBuildFile; fileRef = B2C0A536259556980060B367 /* credentials.json */; };
+		B2C0A538259557430060B367 /* credentials.json in Resources */ = {isa = PBXBuildFile; fileRef = B2C0A536259556980060B367 /* credentials.json */; };
+		B2C0A539259557430060B367 /* credentials.json in Resources */ = {isa = PBXBuildFile; fileRef = B2C0A536259556980060B367 /* credentials.json */; };
+		B2C0A53B25956ECA0060B367 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A53A25956ECA0060B367 /* LoginData.swift */; };
+		B2C0A53C25956ED20060B367 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A53A25956ECA0060B367 /* LoginData.swift */; };
+		B2C0A53D25956ED20060B367 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A53A25956ECA0060B367 /* LoginData.swift */; };
+		B2C0A53F2595B72D0060B367 /* LoginMockApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A53E2595B72D0060B367 /* LoginMockApiHandler.swift */; };
+		B2C0A5412595C31F0060B367 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A5402595C31F0060B367 /* HTTPClient.swift */; };
+		B2C0A5422595C49D0060B367 /* LoginMockApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A53E2595B72D0060B367 /* LoginMockApiHandler.swift */; };
+		B2C0A5432595C49E0060B367 /* LoginMockApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A53E2595B72D0060B367 /* LoginMockApiHandler.swift */; };
+		B2C0A5452595C6F00060B367 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A5442595C6F00060B367 /* LoginManager.swift */; };
+		B2C0A5462595C6F40060B367 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A5442595C6F00060B367 /* LoginManager.swift */; };
+		B2C0A5472595C6F40060B367 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A5442595C6F00060B367 /* LoginManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B28F325E25968DAD00598F71 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B2C0A4F1259459A10060B367 /* SimpleLoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C0A4F4259459A10060B367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C0A4F6259459A10060B367 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +78,13 @@
 		B2C0A516259459A20060B367 /* SimpleLoginAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLoginAppUITests.swift; sourceTree = "<group>"; };
 		B2C0A518259459A20060B367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2C0A52525945C8F0060B367 /* LoginCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
+		B2C0A52A259531FE0060B367 /* LoginManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManagerViewModel.swift; sourceTree = "<group>"; };
+		B2C0A532259543DD0060B367 /* LoginErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginErrorHandler.swift; sourceTree = "<group>"; };
+		B2C0A536259556980060B367 /* credentials.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = credentials.json; path = SimpleLoginApp/Model/credentials.json; sourceTree = SOURCE_ROOT; };
+		B2C0A53A25956ECA0060B367 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		B2C0A53E2595B72D0060B367 /* LoginMockApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMockApiHandler.swift; sourceTree = "<group>"; };
+		B2C0A5402595C31F0060B367 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		B2C0A5442595C6F00060B367 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +135,11 @@
 		B2C0A4F3259459A10060B367 /* SimpleLoginApp */ = {
 			isa = PBXGroup;
 			children = (
+				B2C0A529259531E80060B367 /* ViewModel */,
 				B2C0A52425945B030060B367 /* Model */,
 				B2C0A4F4259459A10060B367 /* AppDelegate.swift */,
 				B2C0A4F6259459A10060B367 /* SceneDelegate.swift */,
+				B2C0A532259543DD0060B367 /* LoginErrorHandler.swift */,
 				B2C0A52825951A3D0060B367 /* View */,
 				B2C0A502259459A20060B367 /* Info.plist */,
 			);
@@ -132,6 +168,9 @@
 			isa = PBXGroup;
 			children = (
 				B2C0A52525945C8F0060B367 /* LoginCredentials.swift */,
+				B2C0A53A25956ECA0060B367 /* LoginData.swift */,
+				B2C0A53E2595B72D0060B367 /* LoginMockApiHandler.swift */,
+				B2C0A5402595C31F0060B367 /* HTTPClient.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,8 +182,19 @@
 				B2C0A4FD259459A20060B367 /* Assets.xcassets */,
 				B2C0A4FA259459A10060B367 /* Main.storyboard */,
 				B2C0A4F8259459A10060B367 /* LoginViewController.swift */,
+				B28F325E25968DAD00598F71 /* WelcomeViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B2C0A529259531E80060B367 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B2C0A52A259531FE0060B367 /* LoginManagerViewModel.swift */,
+				B2C0A536259556980060B367 /* credentials.json */,
+				B2C0A5442595C6F00060B367 /* LoginManager.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +303,7 @@
 			files = (
 				B2C0A501259459A20060B367 /* LaunchScreen.storyboard in Resources */,
 				B2C0A4FE259459A20060B367 /* Assets.xcassets in Resources */,
+				B2C0A537259556980060B367 /* credentials.json in Resources */,
 				B2C0A4FC259459A10060B367 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C0A538259557430060B367 /* credentials.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C0A539259557430060B367 /* credentials.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +331,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C0A52B259531FE0060B367 /* LoginManagerViewModel.swift in Sources */,
 				B2C0A52625945C8F0060B367 /* LoginCredentials.swift in Sources */,
+				B28F325F25968DAD00598F71 /* WelcomeViewController.swift in Sources */,
+				B2C0A53B25956ECA0060B367 /* LoginData.swift in Sources */,
 				B2C0A4F9259459A10060B367 /* LoginViewController.swift in Sources */,
 				B2C0A4F5259459A10060B367 /* AppDelegate.swift in Sources */,
+				B2C0A5452595C6F00060B367 /* LoginManager.swift in Sources */,
+				B2C0A5412595C31F0060B367 /* HTTPClient.swift in Sources */,
 				B2C0A4F7259459A10060B367 /* SceneDelegate.swift in Sources */,
+				B2C0A533259543DD0060B367 /* LoginErrorHandler.swift in Sources */,
+				B2C0A53F2595B72D0060B367 /* LoginMockApiHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +349,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28F326025968DAD00598F71 /* WelcomeViewController.swift in Sources */,
+				B2C0A5422595C49D0060B367 /* LoginMockApiHandler.swift in Sources */,
+				B2C0A5462595C6F40060B367 /* LoginManager.swift in Sources */,
+				B2C0A530259541480060B367 /* LoginViewController.swift in Sources */,
+				B2C0A52C259541380060B367 /* LoginCredentials.swift in Sources */,
+				B2C0A52E2595413D0060B367 /* LoginManagerViewModel.swift in Sources */,
+				B2C0A534259543EA0060B367 /* LoginErrorHandler.swift in Sources */,
 				B2C0A50C259459A20060B367 /* SimpleLoginAppTests.swift in Sources */,
+				B2C0A53D25956ED20060B367 /* LoginData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +365,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28F326125968DAD00598F71 /* WelcomeViewController.swift in Sources */,
+				B2C0A5432595C49E0060B367 /* LoginMockApiHandler.swift in Sources */,
+				B2C0A5472595C6F40060B367 /* LoginManager.swift in Sources */,
+				B2C0A531259541480060B367 /* LoginViewController.swift in Sources */,
+				B2C0A52D259541390060B367 /* LoginCredentials.swift in Sources */,
+				B2C0A52F2595413E0060B367 /* LoginManagerViewModel.swift in Sources */,
+				B2C0A535259543EB0060B367 /* LoginErrorHandler.swift in Sources */,
 				B2C0A517259459A20060B367 /* SimpleLoginAppUITests.swift in Sources */,
+				B2C0A53C25956ED20060B367 /* LoginData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

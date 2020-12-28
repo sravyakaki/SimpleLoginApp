@@ -76,11 +76,51 @@
                         <outlet property="loginErrorDescriptionLabel" destination="ktM-zF-cYF" id="ssy-IN-QBM"/>
                         <outlet property="passwordTextField" destination="XPg-mp-9VF" id="zcX-GU-w9r"/>
                         <outlet property="usernameTextField" destination="Xco-l5-IKs" id="Jnl-9a-JSx"/>
+                        <segue destination="kL2-Ib-zAH" kind="show" identifier="showUsernameSegue" id="bog-dV-WzH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+        <!--Welcome View Controller-->
+        <scene sceneID="wds-OK-2Ue">
+            <objects>
+                <viewController storyboardIdentifier="WelcomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kL2-Ib-zAH" customClass="WelcomeViewController" customModule="SimpleLoginApp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tGY-wd-Q6p">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome Back" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZf-fv-PGK">
+                                <rect key="frame" x="150" y="148" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeL-mv-2QX">
+                                <rect key="frame" x="168" y="239" width="78.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tZf-fv-PGK" firstAttribute="top" secondItem="x3x-7l-DxO" secondAttribute="top" constant="148" id="249-WH-bjo"/>
+                            <constraint firstItem="eeL-mv-2QX" firstAttribute="centerX" secondItem="tGY-wd-Q6p" secondAttribute="centerX" id="GJE-Uz-hma"/>
+                            <constraint firstItem="tZf-fv-PGK" firstAttribute="centerX" secondItem="tGY-wd-Q6p" secondAttribute="centerX" id="SV7-SN-hev"/>
+                            <constraint firstItem="eeL-mv-2QX" firstAttribute="top" secondItem="tZf-fv-PGK" secondAttribute="bottom" constant="70" id="lDm-Db-9ZU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="x3x-7l-DxO"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GoW-nJ-Eeh"/>
+                    <connections>
+                        <outlet property="usernameLabel" destination="eeL-mv-2QX" id="n3a-sf-nB9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UPA-Aa-5g1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069.5652173913045" y="137.94642857142856"/>
         </scene>
     </scenes>
 </document>
