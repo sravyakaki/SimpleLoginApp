@@ -42,6 +42,9 @@
 		B2C0A5452595C6F00060B367 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A5442595C6F00060B367 /* LoginManager.swift */; };
 		B2C0A5462595C6F40060B367 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A5442595C6F00060B367 /* LoginManager.swift */; };
 		B2C0A5472595C6F40060B367 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A5442595C6F00060B367 /* LoginManager.swift */; };
+		B2DB2238259988D00005F2AA /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB2237259988D00005F2AA /* LoginViewControllerTests.swift */; };
+		B2DB223925998A050005F2AA /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A5402595C31F0060B367 /* HTTPClient.swift */; };
+		B2DB223A25998A060005F2AA /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C0A5402595C31F0060B367 /* HTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +88,7 @@
 		B2C0A53E2595B72D0060B367 /* LoginMockApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMockApiHandler.swift; sourceTree = "<group>"; };
 		B2C0A5402595C31F0060B367 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		B2C0A5442595C6F00060B367 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		B2DB2237259988D00005F2AA /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 			children = (
 				B2C0A50B259459A20060B367 /* SimpleLoginAppTests.swift */,
 				B2C0A50D259459A20060B367 /* Info.plist */,
+				B2DB2237259988D00005F2AA /* LoginViewControllerTests.swift */,
 			);
 			path = SimpleLoginAppTests;
 			sourceTree = "<group>";
@@ -355,8 +360,10 @@
 				B2C0A530259541480060B367 /* LoginViewController.swift in Sources */,
 				B2C0A52C259541380060B367 /* LoginCredentials.swift in Sources */,
 				B2C0A52E2595413D0060B367 /* LoginManagerViewModel.swift in Sources */,
+				B2DB223925998A050005F2AA /* HTTPClient.swift in Sources */,
 				B2C0A534259543EA0060B367 /* LoginErrorHandler.swift in Sources */,
 				B2C0A50C259459A20060B367 /* SimpleLoginAppTests.swift in Sources */,
+				B2DB2238259988D00005F2AA /* LoginViewControllerTests.swift in Sources */,
 				B2C0A53D25956ED20060B367 /* LoginData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +378,7 @@
 				B2C0A531259541480060B367 /* LoginViewController.swift in Sources */,
 				B2C0A52D259541390060B367 /* LoginCredentials.swift in Sources */,
 				B2C0A52F2595413E0060B367 /* LoginManagerViewModel.swift in Sources */,
+				B2DB223A25998A060005F2AA /* HTTPClient.swift in Sources */,
 				B2C0A535259543EB0060B367 /* LoginErrorHandler.swift in Sources */,
 				B2C0A517259459A20060B367 /* SimpleLoginAppUITests.swift in Sources */,
 				B2C0A53C25956ED20060B367 /* LoginData.swift in Sources */,
@@ -531,6 +539,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = A9LJR8LPA6;
 				INFOPLIST_FILE = SimpleLoginApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -549,6 +558,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = A9LJR8LPA6;
 				INFOPLIST_FILE = SimpleLoginApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

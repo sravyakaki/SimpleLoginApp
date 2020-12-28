@@ -27,12 +27,14 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xco-l5-IKs">
                                         <rect key="frame" x="132" y="77.5" width="150.5" height="34"/>
                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="USERNAME"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XPg-mp-9VF">
                                         <rect key="frame" x="132" y="168.5" width="150.5" height="34"/>
                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="PASSWORD"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -45,6 +47,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3d-PZ-8XR">
                                         <rect key="frame" x="132" y="259.5" width="150.5" height="30"/>
                                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="LOGINBTN"/>
                                         <state key="normal" title="Login">
                                             <color key="titleColor" red="0.96078431369999995" green="0.95686274510000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -98,7 +101,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeL-mv-2QX">
-                                <rect key="frame" x="168" y="239" width="78.5" height="21"/>
+                                <rect key="frame" x="168" y="199" width="78.5" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="LOGINUSER"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -109,7 +113,7 @@
                             <constraint firstItem="tZf-fv-PGK" firstAttribute="top" secondItem="x3x-7l-DxO" secondAttribute="top" constant="148" id="249-WH-bjo"/>
                             <constraint firstItem="eeL-mv-2QX" firstAttribute="centerX" secondItem="tGY-wd-Q6p" secondAttribute="centerX" id="GJE-Uz-hma"/>
                             <constraint firstItem="tZf-fv-PGK" firstAttribute="centerX" secondItem="tGY-wd-Q6p" secondAttribute="centerX" id="SV7-SN-hev"/>
-                            <constraint firstItem="eeL-mv-2QX" firstAttribute="top" secondItem="tZf-fv-PGK" secondAttribute="bottom" constant="70" id="lDm-Db-9ZU"/>
+                            <constraint firstItem="eeL-mv-2QX" firstAttribute="top" secondItem="tZf-fv-PGK" secondAttribute="bottom" constant="30" id="lDm-Db-9ZU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="x3x-7l-DxO"/>
                     </view>
