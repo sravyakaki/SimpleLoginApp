@@ -13,3 +13,6 @@ This simple application shall allow the user to enter a username and password to
 # UI And Unit Tests
 1. UI Tests are written for the login screen to validate the inputs by supplying dummy values
 
+# Mock JSON File and API Handler
+1. Files in Model folder have been written to handle the mock API call and success response from the json file. Credentials folder is setup as a singleton class to update and share the user credentials throughout the app. However, the mock setup isn't generating the response as I intended it to, hence a different approach has been followed.
+
