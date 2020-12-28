@@ -3,6 +3,7 @@ This simple application shall allow the user to enter a username and password to
 
 # Design Pattern Used
 1. App is designed by following the principles of MVVM design architecture/pattern
+2. Protocols, Delegates and Segues are used to establish communication between different view controllers. Data transfer between the view controllers takes place through a segue.
 
 # Validation Checks In Login Screen:
 1. Username and Password fields cannot be left empty. If user attempts to proceed, the app shall throw a popover alert. 
