@@ -1,6 +1,9 @@
 # SimpleLoginApp
 This simple application shall allow the user to enter a username and password to login to the app. The user shall then be greeted with a welcome screen along with the username they used to login.
 
+# Design Pattern Used
+1. App is designed by following the principles of MVVM design architecture/pattern
+
 # Validation Checks In Login Screen:
 1. Username and Password fields cannot be left empty. If user attempts to proceed, the app shall throw a popover alert. 
 2. If either of the Username or Password fields are left empty, the app will display a popover as mentioned above along with highlighting the empty textfield in red.
